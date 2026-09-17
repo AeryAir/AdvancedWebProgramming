@@ -1,0 +1,85 @@
+body {
+      font: 1.2em Helvetica, Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+
+    section {
+      width: 90%;
+      max-width: 700px;
+      border: 1px solid #4D4E53;
+      border-radius: 2px;
+      padding: 10px 14px 10px 10px;
+      margin-bottom: 10px;
+    }
+
+    p {   background-color: red;}
+
+    div p:nth-child(2)  {
+      background-color:blue;
+    }
+
+
+
+/*Correction*/
+
+
+/*Premiere boite*/
+    .box {
+      width: 338px;
+      border: 2px dotted rgb(96, 139, 168);
+	  height: 200px;
+    }
+
+    .box>* {
+      padding: 20px;
+      border: 2px solid rgb(96, 139, 168);
+      border-radius: 5px;
+      background-color: rgba(96, 139, 168, .2);
+    }
+ 
+    .box {
+      display: flex;
+      align-items: flex-start;
+    }
+
+	.box div:first-child {
+	align-self: stretch;
+	}
+	
+	.box div:nth-child(3) {
+	align-self: center;
+	}
+
+
+
+/* Deuxieme boite*/
+
+	.box0 {
+      width: 200px;
+      border: 2px dotted rgb(96, 139, 168);
+	  height: 270px;
+    }
+
+    .box0>* {
+      padding: 20px;
+      border: 2px solid rgb(96, 139, 168);
+      border-radius: 5px;
+      background-color: rgba(96, 139, 168, .2);
+    }
+ 
+    .box0 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+	.box0 div:nth-child(1) {
+	align-self: stretch;
+	}
+	
+	.box0 div:nth-child(3) {
+	align-self: center;
+	}
+	
+	

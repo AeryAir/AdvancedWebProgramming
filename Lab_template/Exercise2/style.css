@@ -1,0 +1,27 @@
+* { box-sizing: border-box; } 
+body { background-color: #AAA;
+ margin: 0px 50px 50px; 
+} 
+.item { padding: 2rem;
+ border: 5px solid #87b5ff; 
+border-radius: 3px; 
+font-size: 2em; 
+font-family: sans-serif; 
+font-weight: bold; 
+background-color: #1c57b5; }
+
+
+/*correction*/
+.container {
+display: flex;
+}
+
+.container div:nth-child(2) {
+flex:2;
+}
+.container div:nth-child(1) {
+flex:1;
+}
+.container div:nth-child(3) {
+flex:1;
+}

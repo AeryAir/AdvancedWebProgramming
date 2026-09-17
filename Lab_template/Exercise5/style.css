@@ -1,0 +1,37 @@
+
+/*Correction*/
+
+.container {
+display: flex;
+flex-wrap:wrap;
+flex-direction: row;
+}
+
+header, footer, nav, aside, article {
+border:2px solid black;
+text-align: center;
+justify-content: center;
+align-content: center;
+align-items: center;
+padding-top:30px;
+}
+
+header, nav, footer{
+height: 10vh}
+
+aside, article{
+height : 70vh;}
+
+.container header, footer, nav {
+width: 100%;
+}
+
+.container div {
+display:flex;
+flex-wrap: nowrap;
+}
+.container div aside {
+flex: 1}
+
+.container div article {
+flex: 4}
