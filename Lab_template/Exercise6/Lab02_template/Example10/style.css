@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.buttons div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.buttons output {
+    pointer-events: none;
+}
+
+.button[data-color=blue] {
+    background: rgb(175, 219, 255);
+    width: 10rem;
+    height: 10rem;
+}
+
+.button[data-color=red] {
+    background: rgb(255, 20, 20);
+    margin: auto;
+    width: 7rem;
+    height: 7rem;
+}
+
+.button[data-color=yellow] {
+    background: rgb(255, 205, 67);
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+}
