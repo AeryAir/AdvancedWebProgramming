@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="app" data-propagating="true" data-total="0" data-reverse="false">
+        <div class="buttons">
+            <div class="button" data-value="1" data-color="blue">
+                1
+                <div class="button" data-value="2" data-color="red">
+                    2
+                    <div class="button" data-value="5" data-color="yellow">
+                        3
+                    </div>
+                </div>
+            </div>
+        </div>
+        Count: <output class="count">0</output>
+        <div class="control">
+            <button class="stop-propagation">Stop Propagation</button>
+            <button class="reset">Reset</button>
+            <button class="change-order">Change order</button>
+        </div>
+        <ul class="messages">
+
+        </ul>
+    </main>
+</body>
+
+</html>

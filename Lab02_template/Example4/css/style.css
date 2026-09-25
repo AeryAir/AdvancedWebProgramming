@@ -1,0 +1,17 @@
+section {
+	background-color:blue;
+	height: 300px;
+}
+  
+  div {
+	  background-color:red;
+	height: 200px;
+	margin-top: 35px;
+	  
+  }
+  
+  p {
+	    background-color:yellow;
+	height: 100px;
+	margin-top: 15px;
+  }
